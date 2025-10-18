@@ -424,7 +424,6 @@ h2 span{
     color: var(--yellow);
 }
 .about_area img {
-    aspect-ratio: 8/8;
     -o-object-fit: cover;
        object-fit: cover;
 }
