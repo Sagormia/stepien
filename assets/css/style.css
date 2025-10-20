@@ -326,8 +326,8 @@ header.sticky {
 	border: 0.2rem solid var(--yellow);
 }
 .outline:hover{
-	background-color: var(--seablue);
-	border-color: var(--seablue);
+	background-color: #fff;
+	border-color: #fff;
 	color: var(--dark) !important;
 }
 .button.white_btn{
