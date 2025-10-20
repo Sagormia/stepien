@@ -356,14 +356,14 @@ header.sticky {
 }
 
 /*home area*/
-.home_area{
-	padding: 2rem 0 1rem;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	position: relative;
-	z-index: 1;
-	background-color: #000;
+.home_area {
+    padding: 5rem 0 6rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    background-color: #000;
 }
 .home_area::after{
 	position: absolute;
@@ -390,8 +390,17 @@ header.sticky {
     font-size: 6rem;
     font-weight: 800;
     line-height: 1.2;
-    margin-bottom: 4rem;
     text-transform: uppercase;
+}
+.home_content p{
+	margin-top: 3rem;
+}
+.home_content ul{
+	list-style: disc;
+	padding-left: 2rem;
+}
+.home_content ul li{
+	margin-top: 2rem;
 }
 .home_content h1 span{
 	color: var(--yellow);
@@ -414,7 +423,7 @@ h2 span{
 	margin-bottom: 4rem;
 }
 .about_area p{
-	max-width: 90rem;
+	max-width: 85rem;
 	margin-top: 2.5rem;
 }
 .about_area p a{
@@ -425,7 +434,8 @@ h2 span{
 }
 .about_area img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
+    aspect-ratio: 8/8;
 }
 .about_area ul{
 	list-style: disc;
